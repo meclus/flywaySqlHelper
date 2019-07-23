@@ -34,7 +34,7 @@ public class CreateFileWithFlywaySQLAction extends CreateFileAction {
     private final String template;
 
     public CreateFileWithFlywaySQLAction(String type, String version, String defaultExtension, String template) {
-        super(type + " file", MessageBundle.message("action.create.new.file.description", type), StdFileTypes.PLAIN_TEXT.getIcon());
+        super(type + " " + version + " file", MessageBundle.message("action.create.new.file.description", type), StdFileTypes.PLAIN_TEXT.getIcon());
         this.type = type;
         this.version = version;
         this.defaultExtension = defaultExtension;

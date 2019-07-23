@@ -45,7 +45,7 @@ public class PluginSettings implements PersistentStateComponent<PluginSettings>,
             for (Setting setting : settings) {
                 CreateFileWithFlywaySQLAction action =
                         new CreateFileWithFlywaySQLAction(setting.getName(), setting.getVersion(), setting.getDefaultExtension(), setting.getTemplate());
-                String actionId = "FlywaySQL." + setting.getName();
+                String actionId = "FlywaySQL." + setting.getVersion();
                 am.registerAction(actionId, action);
                 newGroup.addAction(action, new Constraints(Anchor.AFTER, anchorId));
                 anchorId = actionId;

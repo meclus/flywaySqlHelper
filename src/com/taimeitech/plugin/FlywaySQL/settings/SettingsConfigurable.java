@@ -4,6 +4,7 @@ import com.intellij.openapi.options.Configurable;
 import com.intellij.openapi.project.Project;
 import com.intellij.ui.ToolbarDecorator;
 import com.intellij.ui.components.JBList;
+import org.apache.commons.collections.CollectionUtils;
 import org.jetbrains.annotations.Nls;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
@@ -41,7 +42,7 @@ public class SettingsConfigurable implements Configurable {
                 @Override
                 public Component getListCellRendererComponent(JList<?> list, Object value, int index, boolean isSelected, boolean cellHasFocus) {
                     super.getListCellRendererComponent(list, value, index, isSelected, cellHasFocus);
-                    setText(((Setting) value).getName());
+                    setText(((Setting) value).getVersion());
                     return this;
                 }
             });
@@ -63,6 +64,9 @@ public class SettingsConfigurable implements Configurable {
             }
             PluginSettings.getInstance(project).setConfiguration(newList);
             isModified = false;
+            if (CollectionUtils.size(listModel) == 1) {
+                ToolbarDecorator.createDecorator(settingList).disableAddAction();
+            }
         }
 
         private void reset() {
@@ -72,15 +76,6 @@ public class SettingsConfigurable implements Configurable {
         }
 
         private void initializeListModel() {
-//            if (PluginSettings.getInstance(project).settings.isEmpty()) {
-//                Setting setting = new Setting("");
-//                listModel.add(0, setting);
-//            } else {
-//                for (Setting setting : PluginSettings.getInstance(project).settings) {
-//                    listModel.add(listModel.size(), setting);
-//                }
-//            }
-
             for (Setting setting : PluginSettings.getInstance(project).settings) {
                 listModel.add(listModel.size(), setting);
             }
