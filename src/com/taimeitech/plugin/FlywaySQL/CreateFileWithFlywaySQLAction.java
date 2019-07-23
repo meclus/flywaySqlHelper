@@ -117,9 +117,9 @@ public class CreateFileWithFlywaySQLAction extends CreateFileAction {
             } else if ("USER".equals(variable)) {
                 replacement = System.getProperty("user.name");
             } else if ("NAME".equals(variable)) {
-                replacement = description;
+                replacement = description.replace(" ","_");
             } else if ("VERSION".equals(variable)) {
-                replacement = version.replace(".","_");
+                replacement = version; // .replace(".","_")
             } else if (variable.startsWith("NOW")) {
                 replacement = new SimpleDateFormat(variable.substring(4)).format(timestamp);
             }

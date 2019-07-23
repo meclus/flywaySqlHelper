@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2a6d5a1-9c2d-4d25-ae24-17b8707def35" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlywaySQL.jar" beforeDir="false" afterPath="$PROJECT_DIR$/FlywaySQL.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/taimeitech/plugin/FlywaySQL/CreateFileWithFlywaySQLAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/taimeitech/plugin/FlywaySQL/CreateFileWithFlywaySQLAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/taimeitech/plugin/FlywaySQL/settings/PluginSettings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/taimeitech/plugin/FlywaySQL/settings/PluginSettings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/taimeitech/plugin/FlywaySQL/settings/SettingsConfigurable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/taimeitech/plugin/FlywaySQL/settings/SettingsConfigurable.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,11 +22,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/taimeitech/plugin/FlywaySQL/CreateFileWithFlywaySQLAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="36" column="26" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
-              <folding>
-                <element signature="e#1332#1397#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="781">
+              <caret line="119" column="59" lean-forward="true" selection-start-line="119" selection-start-column="59" selection-end-line="119" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -35,16 +31,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/taimeitech/plugin/FlywaySQL/settings/SettingsConfigurable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
+            <state relative-caret-position="135">
               <caret line="25" selection-start-line="25" selection-end-line="25" />
-              <folding>
-                <element signature="e#1224#1652#0" expanded="true" />
-                <element signature="e#1651#1652#0" expanded="true" />
-                <element signature="e#2172#2181#0" expanded="true" />
-                <element signature="e#3350#3377#0" expanded="true" />
-                <element signature="e#4216#4244#0" expanded="true" />
-                <element signature="e#4991#5015#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -52,7 +40,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/taimeitech/plugin/FlywaySQL/messages/MessageBundle.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
+            <state relative-caret-position="225">
               <caret line="15" selection-start-line="15" selection-end-line="15" selection-end-column="13" />
             </state>
           </provider>
@@ -61,7 +49,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/taimeitech/plugin/FlywaySQL/settings/PluginSettings.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
+            <state relative-caret-position="435">
               <caret line="44" selection-start-line="44" selection-end-line="44" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -153,58 +141,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="FlywaySQL_Plugin-master-0c4b77379d875fecac03fea861b856525a56bde0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FlywaySQL_Plugin-master-0c4b77379d875fecac03fea861b856525a56bde0" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FlywaySQL_Plugin-master-0c4b77379d875fecac03fea861b856525a56bde0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FlywaySQL_Plugin-master-0c4b77379d875fecac03fea861b856525a56bde0" type="462c0819:PsiDirectoryNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FlywaySQL_Plugin-master-0c4b77379d875fecac03fea861b856525a56bde0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FlywaySQL_Plugin-master-0c4b77379d875fecac03fea861b856525a56bde0" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FlywaySQL_Plugin-master-0c4b77379d875fecac03fea861b856525a56bde0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FlywaySQL_Plugin-master-0c4b77379d875fecac03fea861b856525a56bde0" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FlywaySQL_Plugin-master-0c4b77379d875fecac03fea861b856525a56bde0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FlywaySQL_Plugin-master-0c4b77379d875fecac03fea861b856525a56bde0" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FlywaySQL_Plugin-master-0c4b77379d875fecac03fea861b856525a56bde0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FlywaySQL_Plugin-master-0c4b77379d875fecac03fea861b856525a56bde0" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="FlywaySQL" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FlywaySQL_Plugin-master-0c4b77379d875fecac03fea861b856525a56bde0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FlywaySQL_Plugin-master-0c4b77379d875fecac03fea861b856525a56bde0" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="FlywaySQL" type="462c0819:PsiDirectoryNode" />
-              <item name="messages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FlywaySQL_Plugin-master-0c4b77379d875fecac03fea861b856525a56bde0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FlywaySQL_Plugin-master-0c4b77379d875fecac03fea861b856525a56bde0" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="FlywaySQL" type="462c0819:PsiDirectoryNode" />
-              <item name="settings" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="PackagesPane">
         <subPane>
           <expand>
@@ -221,6 +157,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="ProjectPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -233,7 +170,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="GenericSQL" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/flywaysql_plugin-1.1.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -346,10 +283,10 @@
     <option name="totallyTimeSpent" value="22014000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="23" width="1577" height="1026" extended-state="6" />
+    <frame x="0" y="25" width="1920" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18474688" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18910256" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" side_tool="true" />
@@ -651,9 +588,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/V1.1_20190723110715__DML_micke_test.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/db/V1.1_20190723110715__DML_micke_test.sql" />
     <entry file="file://$PROJECT_DIR$/src/com/taimeitech/plugin/FlywaySQL/messages/MessageBundle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -692,13 +627,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/awt/Container.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="417" column="21" selection-start-line="417" selection-start-column="21" selection-end-line="417" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/awt/Container.java" />
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/com/intellij/openapi/application/impl/ApplicationImpl.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="169">
@@ -753,44 +682,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/taimeitech/plugin/FlywaySQL/messages/MessageBundle.properties">
+    <entry file="file://$PROJECT_DIR$/src/com/taimeitech/plugin/FlywaySQL/CreateFileWithFlywaySQLAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" selection-start-line="15" selection-end-line="15" selection-end-column="13" />
+        <state relative-caret-position="781">
+          <caret line="119" column="59" lean-forward="true" selection-start-line="119" selection-start-column="59" selection-end-line="119" selection-end-column="59" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/taimeitech/plugin/FlywaySQL/settings/SettingsConfigurable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
+        <state relative-caret-position="135">
           <caret line="25" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="e#1224#1652#0" expanded="true" />
-            <element signature="e#1651#1652#0" expanded="true" />
-            <element signature="e#2172#2181#0" expanded="true" />
-            <element signature="e#3350#3377#0" expanded="true" />
-            <element signature="e#4216#4244#0" expanded="true" />
-            <element signature="e#4991#5015#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/taimeitech/plugin/FlywaySQL/messages/MessageBundle.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/taimeitech/plugin/FlywaySQL/settings/PluginSettings.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
+        <state relative-caret-position="435">
           <caret line="44" selection-start-line="44" selection-end-line="44" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/taimeitech/plugin/FlywaySQL/CreateFileWithFlywaySQLAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="36" column="26" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
-          <folding>
-            <element signature="e#1332#1397#0" expanded="true" />
           </folding>
         </state>
       </provider>
