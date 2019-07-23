@@ -15,7 +15,6 @@ import java.util.List;
  * created by mickey.wang on 2019/1/4  , scheme = StorageScheme.DIRECTORY_BASED
  **/
 @State(name= "FlywaySQL", storages = {
-        @Storage(StoragePathMacros.WORKSPACE_FILE),
         @Storage("/flyway-sql.xml")
 })
 public class PluginSettings implements PersistentStateComponent<PluginSettings>, ProjectComponent {

@@ -32,6 +32,7 @@ public class SettingsConfigurable implements Configurable {
     private class SettingsPanel extends JPanel {
         private final JBList settingList;
         private final DefaultListModel<Setting> listModel;
+        public JPanel toolbarPanel = null;
 
         private boolean isModified = false;
 
@@ -48,13 +49,24 @@ public class SettingsConfigurable implements Configurable {
                 }
             });
             setLayout(new BorderLayout());
-            add(ToolbarDecorator.createDecorator(settingList)
+            refreshToolbarAction();
+        }
+
+        public void refreshToolbarAction(){
+            if(null!=toolbarPanel) {
+                this.remove(toolbarPanel);
+            }
+            ToolbarDecorator toolbarDecorator = ToolbarDecorator.createDecorator(settingList)
                     .setAddAction(anActionButton -> addNew())
                     .setRemoveAction(anActionButton -> removeSelected())
                     .setEditAction(anActionButton -> editSelected())
                     .disableUpAction()
-                    .disableDownAction()
-                    .createPanel());
+                    .disableDownAction();
+            if (null!=listModel&&listModel.getSize() >0) {
+                toolbarDecorator.disableAddAction();
+            }
+            toolbarPanel = toolbarDecorator.createPanel();
+            this.add(toolbarPanel);
         }
 
         private void apply() {
@@ -65,9 +77,7 @@ public class SettingsConfigurable implements Configurable {
             }
             PluginSettings.getInstance(project).setConfiguration(newList);
             isModified = false;
-            if (null!=listModel&&listModel.getSize() == 1) {
-                ToolbarDecorator.createDecorator(settingList).disableAddAction();
-            }
+            panel.refreshToolbarAction();
         }
 
         private void reset() {
@@ -91,6 +101,7 @@ public class SettingsConfigurable implements Configurable {
             }
             settingList.requestFocus();
             isModified = true;
+            panel.refreshToolbarAction();
         }
 
         private void removeSelected() {
@@ -101,6 +112,8 @@ public class SettingsConfigurable implements Configurable {
 
             settingList.requestFocus();
             isModified = true;
+
+            panel.refreshToolbarAction();
         }
 
         private void editSelected() {
