@@ -12,6 +12,7 @@ import org.jetbrains.annotations.Nullable;
 import javax.swing.*;
 import java.awt.*;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Enumeration;
 import java.util.List;
 
@@ -64,7 +65,7 @@ public class SettingsConfigurable implements Configurable {
             }
             PluginSettings.getInstance(project).setConfiguration(newList);
             isModified = false;
-            if (CollectionUtils.size(listModel) == 1) {
+            if (null!=listModel&&listModel.getSize() == 1) {
                 ToolbarDecorator.createDecorator(settingList).disableAddAction();
             }
         }

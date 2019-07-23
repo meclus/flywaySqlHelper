@@ -16,7 +16,7 @@ import java.util.List;
  **/
 @State(name= "FlywaySQL", storages = {
         @Storage(StoragePathMacros.WORKSPACE_FILE),
-        @Storage(StoragePathMacros.MODULE_FILE + "/flyway-sql.xml")
+        @Storage("/flyway-sql.xml")
 })
 public class PluginSettings implements PersistentStateComponent<PluginSettings>, ProjectComponent {
 
@@ -63,8 +63,8 @@ public class PluginSettings implements PersistentStateComponent<PluginSettings>,
         ActionManager am = ActionManager.getInstance();
         DefaultActionGroup newGroup = (DefaultActionGroup) am.getAction("NewGroup");
         for (Setting setting : settings) {
-            AnAction action = am.getAction("FlywaySQL." + setting.getName());
-            am.unregisterAction("FlywaySQL." + setting.getName());
+            AnAction action = am.getAction("FlywaySQL." + setting.getVersion());
+            am.unregisterAction("FlywaySQL." + setting.getVersion());
             newGroup.remove(action);
         }
     }
